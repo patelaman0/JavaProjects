@@ -39,4 +39,13 @@ A simple banking application that allows users to manage bank accounts.
 
 ---
 
+## 🎓 For Students
+
+These Java programs are **perfect for college mini-projects** or assignments.  
+Feel free to use, modify, and present them as part of your **college or academic coursework**.
+
+> 💡 Make sure to understand the logic so you can explain it if asked!
+
+---
+
 
