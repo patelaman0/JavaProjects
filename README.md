@@ -28,24 +28,50 @@ A console-based system to simulate a library book management workflow.
 
 ---
 
-### 3. 🏦 Banking System
-A simple banking application that allows users to manage bank accounts.
+### 3. 🏦 Mini Bank (Java + Oracle SQL)
 
-**Features:**
-- Create bank accounts
-- Deposit and withdraw funds
-- View and search account details
-- Uses arrays and looping structures
+A simple console-based banking system built in **Java** using **Oracle SQL** for database operations. It supports basic banking features like creating an account, login, deposit/withdraw, transaction history, and viewing credit card details.
 
 ---
 
-## 🎓 For Students
+## 💡 Features
+
+- Create new bank accounts
+- Secure login with password
+- Deposit and withdraw money (updates balance in DB)
+- View account balance and summary
+- View basic transaction history (in-memory)
+- Display dummy credit card details
+
+---
+
+## 🧰 Tech Stack
+
+- Java (JDK 8+)
+- Oracle Database (XE/local)
+- JDBC
+
+----
+
+## 📦 Setup
+
+1. Make sure Oracle DB is installed and running on `localhost:1521:XE`.
+2. Update DB credentials in `Connections.java`:
+```java
+String url = "jdbc:oracle:thin:@localhost:1521:XE";
+String name = "your_username";     // replace with your Oracle username
+String password = "your_password"; // replace with your Oracle password
+
+
+----
+
+### 🎓 For Students
 
 These Java programs are **perfect for college mini-projects** or assignments.  
 Feel free to use, modify, and present them as part of your **college or academic coursework**.
 
 > 💡 Make sure to understand the logic so you can explain it if asked!
 
----
+----
 
 
